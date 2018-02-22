@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+
+p {
+    text-indent: 52px;
+    text-align: justify;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #008CBA;
+}
+
+</style>
+</head>
+<body bgcolor="#000000">
+<p>
+<img src="app.jpg" alt="Flowers in Chania">
+</p>
+<p></p>
+<p></p>
+<audio id="myAudio">
+  <source src="aplicacion.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Palabra = Aplicacion</p>
+
+<button onclick="playAudio()" type="button">Escuchar Sonido</button>
+<button onclick="pauseAudio()" type="button">Pausar Sonido</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+} 
+</script>
+
+
+
+
+
+
+
+</tbody>
+</table>
+</body>
+</html>
